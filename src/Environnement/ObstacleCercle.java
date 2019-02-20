@@ -9,7 +9,8 @@ public class ObstacleCercle extends Obstacle {
 		
 		if(distanceFrom(r) < diametre / 2)
 		{
-			for(Capteur c: r.getCapteursList()) {
+			for(Capteur c: r.getCapteursList()) 
+			{
 				if(c instanceof CapteurContact) {
 					//if(((CapteurContact) c).getAngle() - ((CapteurContact) c).getAngleOuverture()/2)
 				

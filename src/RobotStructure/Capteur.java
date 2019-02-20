@@ -1,6 +1,6 @@
 package RobotStructure;
 
-import Environnement.*;
+import Environnement.Position;
 
 public abstract class Capteur {
 	
